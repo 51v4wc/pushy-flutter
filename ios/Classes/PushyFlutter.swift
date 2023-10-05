@@ -2,7 +2,7 @@ import Flutter
 import UIKit
 // import Pushy
 
-public class PushyFlutter: NSObject, FlutterPlugin, FlutterStreamHandler {
+public class PushyFlutter: NSObject, FlutterPlugin {
     // var pushy: Pushy?
     // var eventSink: FlutterEventSink?
     // var hasStartupNotification = false
