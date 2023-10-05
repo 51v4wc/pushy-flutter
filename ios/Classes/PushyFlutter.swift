@@ -50,70 +50,70 @@ public class PushyFlutter: NSObject, FlutterPlugin {
     public func handle(_ call: FlutterMethodCall, result: @escaping FlutterResult) {
         result("iOS " + UIDevice.current.systemVersion)
         // Listen for notifications
-        // if (call.method == "listen") {
-        //     // Do nothing on iOS
-        //     result("success")
-        // }
+        if (call.method == "listen") {
+            // Do nothing on iOS
+            result("success")
+        }
         
         // // Register for remote notifications
-        // if (call.method == "register") {
-        //     register(result)
-        // }
+        if (call.method == "register") {
+            result("success")
+        }
         
         // // Check if device is registered
-        // if (call.method == "isRegistered") {
-        //     isRegistered(result)
-        // }
+        if (call.method == "isRegistered") {
+            result("success")
+        }
         
         // // Fetch underlying APNs token
-        // if (call.method == "getAPNsToken") {
-        //     getAPNsToken(result)
-        // }
+        if (call.method == "getAPNsToken") {
+            result("success")
+        }
         
         // // Subscribe device to topic
-        // if (call.method == "subscribe") {
-        //     subscribe(call, result: result)
-        // }
+        if (call.method == "subscribe") {
+            result("success")
+        }
         
         // // Unsubscribe device from topic
-        // if (call.method == "unsubscribe") {
-        //     unsubscribe(call, result: result)
-        // }
+        if (call.method == "unsubscribe") {
+           result("success")
+        }
         
         // // Display an alert winow
-        // if (call.method == "notify") {
-        //     notify(call, result: result)
-        // }
+        if (call.method == "notify") {
+            result("success")
+        }
         
         // // Toggle in-app notification banners (iOS 10+)
-        // if (call.method == "toggleInAppBanner") {
-        //     toggleInAppBanner(call, result: result)
-        // }
+        if (call.method == "toggleInAppBanner") {
+            result("success")
+        }
         
         // // Support for iOS 12+ Critical Alerts
-        // if (call.method == "setCriticalAlertOption") {
-        //     setCriticalAlertOption(result)
-        // }
+        if (call.method == "setCriticalAlertOption") {
+            result("success")
+        }
         
         // // Pushy Enterprise support
-        // if (call.method == "setEnterpriseConfig") {
-        //     setEnterpriseConfig(call, result: result)
-        // }
+        if (call.method == "setEnterpriseConfig") {
+            result("success")
+        }
         
         // // Enable/disable AppDelegate method swizzling
-        // if (call.method == "toggleMethodSwizzling") {
-        //     toggleMethodSwizzling(call, result: result)
-        // }
+        if (call.method == "toggleMethodSwizzling") {
+            result("success")
+        }
         
         // // Pushy Enterprise support
-        // if (call.method == "clearBadge") {
-        //     clearBadge(result)
-        // }
+        if (call.method == "clearBadge") {
+            result("success")
+        }
 
         // // Change Pushy App ID
-        // if (call.method == "setAppId") {
-        //     setAppId(call, result: result)
-        // }
+        if (call.method == "setAppId") {
+            result("success")
+        }
     }
     
     // public override init() {
