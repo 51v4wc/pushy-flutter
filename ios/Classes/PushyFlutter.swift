@@ -48,7 +48,6 @@ public class PushyFlutter: NSObject, FlutterPlugin {
     // }
     
     public func handle(_ call: FlutterMethodCall, result: @escaping FlutterResult) {
-        result("iOS " + UIDevice.current.systemVersion)
         // Listen for notifications
         if (call.method == "listen") {
             // Do nothing on iOS
